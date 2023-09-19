@@ -1,0 +1,642 @@
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+  main {
+    color: white;
+    background-image: url('/images/image-hero-desktop.jpg');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  }
+  .logo {
+    float: left;
+  }
+  .ul1 {
+    float: right;
+    margin-top: -5px;
+  }
+  .buger {
+    float: right;
+    display: none;
+  }
+  .item {
+    display: inline-block;
+    padding-right: 10px;
+  }
+.item:hover{
+    opacity: 0.8;
+}
+
+.closer {
+    display: none;
+}
+.main_sec {
+    background-color: hsla(0, 0%, 48%, 0.144);
+}
+
+.follow_up {
+    background-color: white;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    top: -50px;
+    border-radius: 10px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.beautiful {
+ font-weight: lighter;
+ font-size: 14px;
+}
+.back {
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    /* float: left; */
+}
+.back:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+.bookmark {
+    display: inline-flex;
+    
+    align-items: center;
+    color: hsl(0, 0%, 48%);
+    
+    font-weight: 700;
+    background-color: hsla(0, 0%, 48%, 0.062);
+    padding: 5px 15px 5px 0px;
+    border-radius: 20px;
+    transition: font-size 0.3s ease;
+    /* float: right; */
+  }
+  .bookmark:hover {
+    background-color: hsla(0, 0%, 48%, 0.068);
+    color: hsl(176, 72%, 28%);
+  }
+  .book {
+    width: 34px;
+    margin-right: 5px;
+   
+   
+  }
+  .butt {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 16px;
+  }
+  .num {
+    clear: both;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    top: -30px;
+    border-radius: 10px;
+    
+  }
+.num1 {
+  border-right: solid 1px hsla(0, 0%, 48%, 0.521);
+}
+
+.mas {
+    width: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+.loader {
+  position: relative;
+  width: 100%;
+  height: 10px;
+border-radius: 10px;
+  background-color: hsla(0, 0%, 48%, 0.062);
+
+}
+.loader::after {
+  content: " ";
+  width: 70%;
+  height: 10px;
+  border-bottom: solid 10px hsl(176, 72%, 28%);
+  
+  position: relative; 
+  display: block; 
+  border-radius: 10px;
+}
+.text1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.text2 {
+  font-size: 12px;
+  color: hsl(0, 0%, 48%);
+}
+.projects {
+  background-color: white;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    top: -10px;
+    border-radius: 10px;
+}
+.older {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.mainparagh {
+  text-align: left;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 48%);
+}
+.secondparagh {
+  text-align: left;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 48%);
+}
+.productname {
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.pricehold {
+  color: hsl(176, 50%, 47%);
+  font-size: 0.7rem;
+  font-weight: bolder;
+}
+.producttext {
+  color: hsl(0, 0%, 48%);
+  font-size: 0.9rem;
+}
+.amount {
+  color: hsl(0, 0%, 48%);
+  font-size: 0.7rem;
+}
+.fig {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: black;
+}
+.reward {
+  color: white;
+    background-color: hsl(176, 50%, 47%);
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+
+}
+.reward:hover {
+  background-color: hsl(176, 72%, 28%);
+  
+}
+.bambooffer {
+  border-radius: 10px;
+  border: solid 1px hsl(0, 0%, 48%);
+}
+.blackoffer {
+  border: solid 1px hsl(0, 0%, 48%);
+  border-radius: 10px;
+}
+.mahoganyoffer {
+  border-radius: 10px;
+  border: solid 1px hsl(0, 0%, 48%);
+}
+.model {
+  background-color: white;
+    /* position: relative; */
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    /* top: -10px; */
+    border-radius: 10px;
+}
+.checkbox-container {
+  position: relative; 
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 48%); 
+}
+
+.checkbox-label::after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Checked state */
+.checkbox:checked + .checkbox-label::after {
+  display: block;
+}
+
+.checkbox-label::after {
+  top: 3px;
+  left: 3px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: hsl(176, 72%, 28%); 
+}
+.subspan {
+  display: inline-block;
+  color: hsl(176, 50%, 47%);
+
+}
+.modelsbam .msubhead:hover {
+  color: hsl(176, 50%, 47)
+} 
+.modelsbam {
+  border: solid 1px hsl(0, 0%, 48%);
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.modelbamprice {
+  color: white;
+    background-color: hsl(176, 50%, 47%);
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+
+}
+.modelbamprice:hover {
+  background-color: hsl(176, 72%, 28%);
+  
+}
+.modelbaminput {
+  width: 40px;
+  padding: 0.3rem;
+  border: solid 1px hsl(176, 50%, 47%);
+  border-radius: 20px;
+  transition: all 0.7s ease-in-out;
+}
+.modelbaminput:focus-visible {
+  outline: none;
+  border: solid 1px hsl(176, 72%, 28%);
+  width: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.msubhead {
+  font-size: 1rem;
+  font-weight: bolder;
+
+}
+.modelsp {
+  border: solid 1px hsl(0, 0%, 48%);
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.modelsp label:hover {
+  border: solid 1px hsl(176, 50%, 47%);
+}
+.msubhead:hover {
+  color: hsl(176, 50%, 47%);
+  cursor: pointer;
+}
+.msubparagh {
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 48%);
+}
+.modelsblac {
+  border: solid 1px hsl(0, 0%, 48%);
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.modelsmaho {
+  border: solid 1px hsl(0, 0%, 48%);
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.modelpricebamboo{
+  display: none;
+  border-top: solid 1px hsl(0, 0%, 48%);
+  margin-top: 1rem;
+  height: 10px;
+  transition: all 0.9s ease-in-out;
+}
+
+.active .modelpricebamboo {
+  display: flex;
+  height: auto;
+} 
+.showpricesection {
+  display: flex;
+  height: auto;
+} 
+.model{
+  display: none;
+}
+.show_model {
+  position: fixed;
+      
+            display: block;
+            
+            top: 0px;
+
+            z-index: 98;
+            left: 25%;
+            
+            border-radius: 13px;
+            margin: 0 auto;
+}
+
+.model_cancel {
+  cursor: pointer;
+}
+.thanks {
+  background-color: white;
+    position: relative;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    top: -10px;
+    border-radius: 10px;
+    display: none;
+}
+.icon_check {
+  margin-inline: auto;
+}
+
+
+.got {
+  color: white;
+    background-color: hsl(176, 50%, 47%);
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+.got:hover {
+  background-color: hsl(176, 72%, 28%);
+  
+}
+
+
+.thanks_show {
+  position: fixed;
+      
+            display: block;
+            
+            top: 20%;
+
+            z-index: 98;
+            left: 25%;
+            right: 25%;
+            
+            border-radius: 13px;
+            margin: 0 auto;
+}
+.reward:disabled {
+  background-color: hsl(0, 0%, 48%);
+}
+
+
+
+
+
+  @media(max-width:800px) {
+    
+      .overlay {
+        position: fixed;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: none;
+            transition: all .5s;
+            background-color: hsla(0, 0%, 0%, 0.486);
+            z-index: 1;
+        }
+       .overshow {
+        display: block;
+       }
+        .buger {
+            float: right;
+            display: inline-block;
+            z-index: 2;
+            cursor: pointer;
+          }
+          .ul1 {
+            display: none;
+            top: 20px;
+            transition: top 1s ease-in-out;
+          }
+          nav {
+            z-index: 2;
+          }
+
+          .ul1s {
+            position: fixed;
+            color: black;
+            background-color: white;
+            display: block;
+            width: 80%;
+            top: 50px;
+            z-index: 100;
+            
+            border-radius: 13px;
+            margin: 0 auto;
+          }
+          .ul1 .shownav {
+            top: 50px;
+          }
+          .item {
+            display: block;
+            padding: 10px;
+            padding: 10px;
+            padding: 25px;
+            font-weight: 700;
+            border-bottom: solid 1px hsla(0, 0%, 48%, 0.411);
+
+            
+          }
+          .closer {
+            position: relative;
+            display: block;
+            top: -40px;
+            right: -105%;
+            cursor: pointer;
+          }
+          .hidebug {
+            display: none;
+          }
+
+  }
+
+  .overlay {
+    position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: none;
+        transition: all .5s;
+        background-color: hsla(0, 0%, 0%, 0.486);
+        z-index: 1;
+    }
+   .overshow {
+    display: block;
+   }
+   .bookmarks {
+    color: hsl(176, 72%, 28%);
+    font-size: 1.1rem;
+    
+   }
+
+   @media(max-width:750px) {
+    main {
+      background-image: url("/images/image-hero-mobile.jpg");
+    }
+    .follow_up {
+      width: 280px;
+    }
+    .bookmark {
+      text-indent: -9999px;
+      background-color: transparent;
+    }
+    .holder {
+      flex-direction: column;
+      
+
+    }
+    .num {
+      width: 280px;
+    }
+    .num1 {
+      border-right: none;
+      border-bottom: solid 1px hsla(0, 0%, 48%, 0.521);
+    }
+    .men {
+      padding-bottom: 10px;
+    }
+    .beautiful {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .projects {
+      width: 280px;
+    }
+    .productholder {
+      flex-direction: column;
+    }
+    .pricehold{
+text-align: left;
+margin-top: 5px;
+font-size: 0.9rem;
+    }
+    .producpricetholder {
+      flex-direction: column;
+      align-items: start;
+    }
+    .amount {
+      margin-bottom: 15px;
+    }
+    .reward {
+      padding: 10px 20px 10px 20px;
+    }
+.mahoganyoffer {
+  opacity: 0.5;
+}
+.model {
+  width: 280px;
+}
+.show_model {
+  left: 5%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.modelbamprice:disabled {
+  background-color: hsl(0, 0%, 48%);
+}
+.msubparagh {
+  margin-left: 5px;
+}
+.msubhead {
+  margin-left: 28px;
+}
+.controler {
+  position: relative;
+
+}
+.msubhead {
+  font-size: 0.9rem;
+}
+.subspan {
+  margin-left: 0px;
+  display: block;
+  font-size: 0.8rem;
+}
+.con {
+  margin-bottom: 30px;
+}
+.formod {
+position: absolute;
+bottom: -45px;
+}
+.consub {
+  margin-bottom: 10px;
+}
+.modelpricebamboo {
+
+  flex-direction: column;
+}
+.modelbaminput {
+  margin-bottom: 10px;
+}
+.thanks {
+  width: 250px;
+}
+.thanks_show {
+  left: 5%;
+  right: 15%;
+}
+   }
+   
