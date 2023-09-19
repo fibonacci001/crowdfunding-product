@@ -4,7 +4,7 @@ body {
 }
   main {
     color: white;
-    background-image: url('/images/image-hero-desktop.jpg');
+    background-image: url('../images/image-hero-desktop.jpg');
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
