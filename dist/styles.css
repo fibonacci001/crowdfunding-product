@@ -533,7 +533,7 @@ border-radius: 10px;
 
    @media(max-width:750px) {
     main {
-      background-image: url("/images/image-hero-mobile.jpg");
+      background-image: URL("../images/image-hero-mobile.jpg");
     }
     .follow_up {
       width: 280px;
@@ -639,4 +639,15 @@ bottom: -45px;
   right: 15%;
 }
    }
+ @media(max-width:1000px) { 
+    .show_model { 
+      position: fixed; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      height: 100vh; 
+      overflow-y: scroll; 
+    } 
+    }
+   
    
